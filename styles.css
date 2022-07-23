@@ -48,3 +48,12 @@
   box-sizing: border-box;
   border: 2px solid black;
 }
+
+th,td {
+    border: solid 1px;
+    padding: 10px;
+}
+ 
+table {
+    border-collapse:  collapse;
+}
