@@ -1,1 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 8px;
+  height: 48px;
+  background-color: lightcyan;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.sidebar {
+  padding: 8px;
+  width: 96px;
+  background-color: moccasin;
+  box-sizing: border-box;
+  border: 2px solid black;;
+}
+
+.flex-content {
+  padding: 8px;
+  flex-grow: 1;
+  background-color: moccasin;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+
+.fixed-content {
+  width:50vw;
+  padding: 8px;
+  flex-grow: 1;
+  background-color: moccasin;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
